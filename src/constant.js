@@ -1,0 +1,1 @@
+export const API = "https://emi-backend-tnqe7m.dauqu.host/api";

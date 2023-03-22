@@ -1,0 +1,36 @@
+.dash_grid_3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    grid-auto-columns: minmax(100px, auto);
+    padding: 20px;
+}
+
+.grid_box {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    min-height: 150px;
+    box-shadow: 1px 1px 5px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 424px) {
+    .dash_grid_3 {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 624px) {
+    .dash_grid_3 {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width: 625px) and (max-width: 1000px) {
+    .dash_grid_3 {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
