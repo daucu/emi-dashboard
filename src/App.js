@@ -6,6 +6,7 @@ import Sellers from './components/Sellers.';
 import Login from './components/auth/Login';
 import Protect from './components/helper/Protect';
 import Transactions from './components/Transactions';
+import Support from './components/support/Support';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: '/transactions',
     element: <Protect Component={Transactions} />,
+  },
+  {
+    path: '/support',
+    element: <Protect Component={Support} />,
   },
 ])
 

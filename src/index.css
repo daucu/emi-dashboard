@@ -56,7 +56,7 @@ Generic Styling, for Desktops/Laptops
 }
 
 table {
-  background-color: #c587ff;
+  background-color: white;
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
@@ -81,7 +81,7 @@ th {
   content: "";
   display: block;
   width: 100%;
-  height: 5px;
+  height: 7px;
 }
 
 .loading {
